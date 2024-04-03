@@ -100,7 +100,7 @@ main p {
     border-radius: 8px;
 }
 
-#contact #rental h2 {
+#contact, h2 {
     text-align: center;
 }
 
@@ -211,6 +211,7 @@ label {
     display: block;
     padding: 3%;
     background-color: #b7b7e1;
+    border-color: #fff;
     font-size: 1em;
 }
 
