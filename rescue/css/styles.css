@@ -128,7 +128,7 @@ figcaption {
     margin-left: 10%;
 }
 
-#contact h2 {
+#contact, h2 {
     text-align: center;
 }
 
@@ -139,8 +139,8 @@ figcaption {
     margin: 0 auto;
 }
 
-tel-link a {
-    background-color: #f6eee4;
+.tel-link a {
+    color: #f6eee4;
     text-decoration: none;
     font-weight: bold;
 }
@@ -282,7 +282,7 @@ footer a {
         padding: 1%;
     }
 
-    th td {
+    th, td {
         border: 1px solid;
         border-color: #2a1f14;
         padding: 1%;
