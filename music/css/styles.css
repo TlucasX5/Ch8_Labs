@@ -135,7 +135,8 @@ main p {
 /* Style rules for table */
 
 table {
-    border: 1 px solid #373684;
+    border: 1px solid;
+    border-color: #373684;
     border-collapse: collapse;
     margin: 0 auto;
     width: 100%;
@@ -268,7 +269,7 @@ footer a {
     /* Tablet Viewport: Style rule for form element */
     form {
         width: 70%;
-        margin-top: 0 auto;
+        margin: 0 auto;
     }
 
     .grid {
