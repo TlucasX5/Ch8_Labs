@@ -159,7 +159,7 @@ th {
 }
 
 tr:nth-child(odd) {
-    background-color: #b7b7el;
+    background-color: #b7b7e1;
 }
 
 aside {
@@ -189,6 +189,30 @@ figcaption {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+/* Styles rules for form elements */
+fieldset input {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label { 
+    display: block;
+	padding-top: 3%;
+}
+
+#submit {
+    margin: 0 auto;
+    display: block;
+    padding: 3%;
+    background-color: #b7b7e1;
+    font-size: 1em;
+}
+
 
 /* Style rules for footer content */
 footer {
@@ -239,6 +263,12 @@ footer a {
     .map {
         width: 500px;
         height: 450px;
+    }
+
+    /* Tablet Viewport: Style rule for form element */
+    form {
+        width: 70%;
+        margin-top: 0 auto;
     }
 
     .grid {
@@ -302,6 +332,17 @@ footer a {
     
     table {
         width: 70%;
+    }
+
+    /* Desktop Viewport: Style rules for form elements */
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    .btn {
+        grid-column: 1 / span 2;
     }
 
 }
